@@ -1,0 +1,2 @@
+# My-progress-on-Data-Science
+The full repo tracking all of my progress on the field of Data Science in general. I'll be going over multiple fields including ML and DL and NLP and Computer Vision. But my focus to become an ML Engineer at the end and design pipelines.
