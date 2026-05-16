@@ -61,3 +61,16 @@ print('-----------------------------')
 print(my_pleasure.find('k')) # This will return '4', meaning k is on the fourth index in the variable called my_pleasure
 print(my_pleasure.find('Thank')) # This will return 0, because the world 'Thank' starts on the zero index
 print(my_pleasure.find("Fuck")) # This will output -1, which means execution failed because this string does not exist in our variable
+
+print('-----------------------------')
+#Now ,let's say I want to replace a part of my string with another. For that, we use the replace.() built-in function, which takes two arguments: The text you will place and the text that will be replaced.
+
+new_my_pleasure = my_pleasure.replace('Thank you, kind sir!', 'Fuck you, Jew!')
+print(new_my_pleasure)
+
+
+print('-----------------------------')
+#Now, let's say I have multiple variable that I want to concatenate into one. We use the plus sign operator for that.
+
+conversation = 'Look at this shithole!:'
+print(conversation + new_my_pleasure + my_pleasure)
